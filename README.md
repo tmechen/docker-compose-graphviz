@@ -3,6 +3,17 @@
 Turn a `docker-compose.yml` into a Graphviz `.dot` file. Currently in prototype state. For an example of the output,
 check out https://github.com/abesto/abesto-net-docker.
 
+## Using as a docker container
+build image via docker-compose file
+```sh
+docker-compose build 
+```
+change volume in docker-compose file (data) to where the corresponding docker-compose file you would like to draw is
+```sh
+docker-compose up 
+```
+container will generate out.png in the data folder
+
 ## Installation
 
 ```sh
