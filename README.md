@@ -10,7 +10,7 @@ docker-compose build
 ```
 change volume in docker-compose file (data) to where the corresponding docker-compose file you would like to draw is
 ```sh
-docker-compose up 
+docker-compose run --rm dcviz
 ```
 container will generate out.png in the data folder
 
