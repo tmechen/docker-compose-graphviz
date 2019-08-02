@@ -1,3 +1,4 @@
 vendor
 data
 glide.lock
+.DS_Store
