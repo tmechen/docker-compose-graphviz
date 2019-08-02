@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
+	"io/ioutil"
+	"os"
+	"strings"
+
 	"github.com/alexcesaro/log"
 	"github.com/alexcesaro/log/stdlog"
 	"github.com/awalterschulze/gographviz"
 	"gopkg.in/yaml.v2"
-	"io/ioutil"
-	"os"
-	"strings"
 )
 
 var logger log.Logger

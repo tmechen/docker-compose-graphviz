@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  dcviz:
+    image: tmechen/dcviz
+    build: .
+    container_name: dcviz_test
+    volumes:
+      - ./data/:/data/
+
